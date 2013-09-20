@@ -129,10 +129,8 @@
             </div>
         </div> <!-- end row -->
         <?php
-            position("Concordia University","Montreal, QC","Bachelor of Computer Science","Completed December 2010",'
-                     <ul>
-                     <li><span style="font-weight: bold">Relevant Coursework:</span> Algorithms, Databases, Artificial Intelligence, Computer Graphics, Operating Systems</li>
-                     </ul>',"");
+            position("Concordia University","Montreal, QC","Bachelor of Computer Science",
+                     "Completed December 2010",'',"");
         ?>
 
       </section>
