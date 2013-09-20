@@ -196,7 +196,10 @@ iprogram('SQL','40');
 
       <footer style="padding-top: 20px;">
 	<hr />
-      <p style="text-align: center">&copy; <a href="#">Graham Saulnier</a> 2012</p>
+
+      <p style="text-align: center">
+        
+        <a href="#">Graham Saulnier</a> 2012</p>
       </footer>      
 
     </div> <!-- /container -->
