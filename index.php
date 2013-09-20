@@ -181,7 +181,7 @@ iprogram('SQL','40');
             <div class="row">
 
       <div class="page-header">
-      <h2>Honors and Skills</h2>
+      <h2>Other Skills</h2>
       </div>
     </div> <!-- end row -->
 	<div class="row">
@@ -189,7 +189,6 @@ iprogram('SQL','40');
 	<?php
 	
 	extra('Languages (fluent)','English, French');
-	extra('Interests','Artificial Intellience<br />Coffee<br />Github<br />Travelling');
 	
 	?>
 	</div>
