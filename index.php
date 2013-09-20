@@ -146,13 +146,9 @@ position("Using skill scale based on Google's self questionnaire.","",
          "" , "", "");
 iprogram('C','50');
 iprogram('C++','60');
-iprogram('C#','70');
-iprogram('Java','70');
-iprogram('SQL','50'); 
-iprogram('Common Lisp / Scheme','40'); 
-iprogram('Git','70');
-
-
+iprogram('C#','50');
+iprogram('Java','40');
+iprogram('SQL','40'); 
 
 ?>
 </div>
