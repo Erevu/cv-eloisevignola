@@ -94,22 +94,29 @@
 
 	position("Mira Geoscience","Montreal, QC","Software Developer","11/12-Present",'
 	<ul>
-	<li>Developed modifications to existing Gocad Mining Suite.</li></ul>', "");
+    <li>Designed and developed a number of modules for the Gocad Mining Suite in C++</li>
+    <li>Porting large legacy program with no documentation from VCL to Qt</li>
+    <li>Created a new developer workflow based on 
+        <a href="http://nvie.com/posts/a-successful-git-branching-model/" target="_blank">nvie\'s branching model </a>
+        and trained collegues in git usage</li>
+    <li>Updated CI build scripts to be more flexible with our new git branching model</li>
+    <li>Helped redesign Redmine workflows to allow developers to work in a somewhat agile environment while 
+        still giving the ability for business to have complete analysis documents readily available</li>
+
+
+    </ul>', "");
 	
 	
 	position("Longbow Advangtage","Montreal, QC","Software Analyst","01/11-10/12",'
 	<ul>
-	<li>Development of program to parse socket messages for incoming and outgoing communications.</li>
-	<li>Design and development of custom shipping module client.</li>
-	<li>Maintained legacy code.</li>
+	<li>Maintained code base between several teams with members using mixed unconnected VCS including some not using any</li>
+	<li>Design and development of custom shipping module client</li>
+	<li>Maintained legacy code controlling various systems including: 
+        <ul><li type="square">shipping, receiving, inventory management, work assignment</li></ul>
+    </li>
 	</ul>',"");
 	
 	
-	position("College Pro","Montreal, QC","Franchise Owner / Manager","02/08-08/08",'
-	<ul>
-	<li>Opened an operated a small business with hiring, training and renumerating several employees. Sold over $25k over the summer. </li>		
-	</ul>',"");
-
 
            ?>
     
