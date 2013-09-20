@@ -78,20 +78,7 @@
 
       </section>-->
 
-      <section id="education">
-        <div class="row">
-            <div class="page-header">
-                <h2>Education</h2>
-            </div>
-        </div> <!-- end row -->
-        <?php
-            position("Concordia University","Montreal, QC","Bachelor of Computer Science","Completed December 2010",'
-                     <ul>
-                     <li><span style="font-weight: bold">Relevant Coursework:</span> Algorithms, Databases, Artificial Intelligence, Computer Graphics, Operating Systems</li>
-                     </ul>',"");
-        ?>
 
-      </section>
       
       
       
@@ -128,7 +115,20 @@
     
     
       </section>
-      
+      <section id="education">
+        <div class="row">
+            <div class="page-header">
+                <h2>Education</h2>
+            </div>
+        </div> <!-- end row -->
+        <?php
+            position("Concordia University","Montreal, QC","Bachelor of Computer Science","Completed December 2010",'
+                     <ul>
+                     <li><span style="font-weight: bold">Relevant Coursework:</span> Algorithms, Databases, Artificial Intelligence, Computer Graphics, Operating Systems</li>
+                     </ul>',"");
+        ?>
+
+      </section>
       <section id="technical">
             <div class="row">
 
