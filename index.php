@@ -147,7 +147,7 @@
 	<div class="span8">
 <?php
 position("Using skill scale based on Google's self questionnaire.","",
-         '<ul><li><a href="http://programmers.stackexchange.com/a/15006/58558/">link</a></li></ul>',
+         '<ul><li><a href="http://programmers.stackexchange.com/a/15006/58558/">Stack Overflow answer describing questionnaire</a></li></ul>',
          "" , "", "");
 iprogram('C','50');
 iprogram('C++','60');
