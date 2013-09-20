@@ -41,7 +41,7 @@
   </head>
 
 <body class="preview" data-spy="scroll" data-target=".subnav" data-offset="80">
-    <a href="https://github.com/Boumbles/cv-philipithomas"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
+    <a href="https://github.com/Boumbles/cv-grahamsaulnier"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
     <div class="container">
 	
 	<header class="jumbotron">
@@ -56,6 +56,7 @@
 		<a href="http://www.github.com/boumbles" target="_blank">github profile</a><br />
 		<a href="mailto:#grahamsaulnier@gmail.com">grahamsaulnier@gmail.com</a><br />
 		<a>+1.514.892.3986</a>
+
 		</address>
 	</span>
 		</div>
