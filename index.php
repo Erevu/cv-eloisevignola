@@ -96,12 +96,14 @@
 	<ul>
     <li>Designed and developed a number of modules for the Gocad Mining Suite in C++</li>
     <li>Porting large legacy program with no documentation from VCL to Qt</li>
+        Some code refactoring in places where implementation not ideal</li>
     <li>Created a new developer workflow based on 
         <a href="http://nvie.com/posts/a-successful-git-branching-model/" target="_blank">nvie\'s branching model </a>
         and trained collegues in git usage</li>
     <li>Updated CI build scripts to be more flexible with our new git branching model</li>
     <li>Helped redesign Redmine workflows to allow developers to work in a somewhat agile environment while 
         still giving the ability for business to have complete analysis documents readily available</li>
+    <li>Technology used: C++, Qt, OpenGL, Jenkins, git, Github, Redmine</li>
 
 
     </ul>', "");
@@ -114,6 +116,7 @@
 	<li>Maintained legacy code controlling various systems including: 
         <ul><li type="square">shipping, receiving, inventory management, work assignment</li></ul>
     </li>
+    <li>Technology used: C, C#, Java, MSQL, Oracle, cvs, svn, git, Jira</li>
 	</ul>',"");
 	
 	
