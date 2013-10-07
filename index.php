@@ -147,13 +147,13 @@
 	<div class="span8">
 <?php
 position("Using skill scale based on Google's self questionnaire.","",
-         '<ul><li><a href="http://programmers.stackexchange.com/a/15006/58558/">Stack Overflow answer describing questionnaire</a></li></ul>',
+         '<ul><li><a href="https://gist.github.com/Boumbles/e66e2a55713fc818d2aa">Gist containing the score descriptions</a></li></ul>',
          "" , "", "");
-iprogram('C','50');
+iprogram('C','40');
 iprogram('C++','60');
-iprogram('C#','50');
-iprogram('Java','40');
-iprogram('SQL','40'); 
+iprogram('C#','40');
+iprogram('Java','30');
+iprogram('SQL','30'); 
 
 ?>
 </div>
