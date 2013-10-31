@@ -1,6 +1,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
+<div id="gscvpage">
   <head>
     <meta charset="utf-8">
     <title>Graham Saulnier Curriculum Vitae </title>
@@ -37,6 +38,12 @@
 
     </script>
 
+    <script type="text/javascript" src="assets/js/jspdf/jspdf.js"></script>
+    <script type="text/javascript" src="assets/js/jspdf/libs/Deflate/adler32cs.js"></script>
+    <script type="text/javascript" src="assets/js/jspdf/libs/FileSaver.js/FileSaver.js"></script>
+    <script type="text/javascript" src="assets/js/jspdf/libs/Blob.js/BlobBuilder.js"></script>
+    <script type="text/javascript" src="assets/js/jspdf.plugin.from_html.js"></script>
+    
     <script type="text/javascript" src="assets/js/functions.js"></script>
 
   
@@ -135,6 +142,16 @@
 
                 </div>
             </section>
+            <section>
+                <div class="row">
+                    <div class="page-header"/>
+                </div>
+                <div>
+                    <p><a href="javascript:createPdf()" class="button">Print PDF</a></p>
+
+                    <!-- <a class="download-button btn btn-small btn-inverse" id="pdfbtn" href="javascript:createPdf();">Print To Pdf</a> -->
+                </div>
+            </section>
             <footer style="padding-top: 20px;">
                 <hr />
                 <p style="text-align: center">&copy; Graham Saulnier 2013</p>
@@ -147,4 +164,5 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
         <script src="assets/js/bootstrap.js"></script>
     </body>
+</div>
 </html>

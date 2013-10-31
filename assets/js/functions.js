@@ -1,3 +1,5 @@
+// require(["jspdf/jspdf"], function(util) { });
+
 function position( company , city , job, dates, blob, link, list ){
     var output = '';
 
@@ -103,14 +105,13 @@ function project( name, liveLink, code ){
     document.close();
 }
 
-function loadScript(url, callback)
+/*function loadScript(url, callback)
 {
     // Adding the script tag to the head as suggested before
     var head = document.getElementsByTagName('head')[0];
     var script = document.createElement('script');
     script.type = 'text/javascript';
     script.src = url;
-
     // Then bind the event to the callback function.
     // There are several events for cross browser compatibility.
     script.onreadystatechange = callback;
@@ -118,10 +119,29 @@ function loadScript(url, callback)
 
     // Fire the loading
     head.appendChild(script);
-}
+}*/
 
 function createPdf() 
 {
-    loadScript("jspdf/jspdf.js", myPrettyCode);
+    var pdf = new jsPDF('p', 'in', 'letter')            
+        , source = $('#gscvpage')[0]
+        , specialElementHandlers = {
+            // element with id of "bypass" - jQuery style selector
+            '#skipme': function(element, renderer){
+                // true = "handled elsewhere, bypass text extraction"
+                return true
+            }
+        }
 
+    pdf.fromHTML(
+        source // HTML string or DOM elem ref.
+        , 0.5 // x coord
+        , 0.5 // y coord
+        , {
+            'width':7.5 // max width of content on PDF
+            , 'elementHandlers': specialElementHandlers
+        }
+    )
+
+    pdf.save('Test.pdf');
 }
