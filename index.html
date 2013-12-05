@@ -24,15 +24,13 @@
     <!-- Le fav and touch icons -->
     <link rel="shortcut icon" href="assets/ico/favicon.ico">
     <script>
-
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-36795011-1']);
-        _gaq.push(['_trackPageview']);
-        (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        
+        ga('create', 'UA-45857529-1', 'erevu.github.io');
+        ga('send', 'pageview');
 
     </script>
 
@@ -42,13 +40,13 @@
 </head>
 
     <body class="preview" data-spy="scroll" data-target=".subnav" data-offset="80">
-    <a href="https://github.com/Boumbles/cv-grahamsaulnier"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
+    <a href="https://github.com/Erevu/cv-eloisevignola"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
         <div class="container">
             <header class="jumbotron">
                 <div class="row">
                     <div class="span12">
                         <h3 style="text-align: center; text-style: italic">Curriculum Vitae for</h3>
-                        <h1 style="padding: 10px 0px; text-align: center; font-size: 60px; line-height: 70px;">Graham Saulnier</h1> 
+                        <h1 style="padding: 10px 0px; text-align: center; font-size: 60px; line-height: 70px;">Elo&iuml;se Vignola</h1> 
                         <span class="" style="text-align: center;"> 
                             <address>
                                 <a href="mailto:eloise.vignola@gmail.com">eloise.vignola@gmail.com</a><br />
@@ -59,6 +57,30 @@
                 </div> 
             </header>
 
+            <section id="experience">
+                <div class="row">
+                    <div class="page-header">
+                        <h2>Professional Experience </h2>
+                    </div>
+                </div>
+                <script>
+                    var res = ['Management of experiential marketing projects:<ul><li type="hyphen">Budget, time and resource planning; Development team management; Quality control; Client communications; Statistics analysis and reporting</li></ul>',
+                            'Design and operation of technological setups:<ul><li type="hyphen">Photo booths; Green screen; Camera 360°; Interactive kiosks; etc.</li></ul>',
+                            'Sales documents preparation and pitch to clients',
+                            'Graphic design of brand elements and new products’ user interface:<ul><li type="hyphen">Photo frames; Android app questionnaires; Emails; Print ads; User interface for the Hashtag marketing and photobooth products</li></ul>',
+                            'Management of internal projects:<ul><li type="hyphen">Introduction of a computerized inventory management system; Development of new products and services; Remodeling of the company’s brand image and website; Establishment of Google Analytics; Expansion of social media</li></ul>',
+                            'Brands and agencies include:<ul><li type="hyphen">Scotiabank; Corona; Ford; Bethenny Frankel; Hydro-Quebec; Cosette; Newad; Wasserman</li></ul>'];
+                    position("Nomad Logic","Montreal, QC","Project Manager","November 2012 - Present", res, 'www.nomadlogic.com', 0 );
+
+                    var tr = ['Planning and execution of experiential marketing events',
+                            'Improvement of brand visibility and product knowledge at different resellers',
+                            'Introduction of an improved internal reports system for Sony products’ performance and competition across the Quebec region'];
+                    position( "Sony Canada","Montreal, QC","Representative","February 2011 - June 2012", tr, 'http://corporate.sony.ca/view/Overview.htm', 0 );
+
+                    var tr = ['Opening of two new restaurant counters at the Montreal P.E.T     airport<ul><li type="hyphen">Recruitment; Employee training and supervision; Menu creation reflecting each concept; Product pricing; Operations process institution; Client and business relations development</li></ul>'];
+                    position( "Bagel Bar | Wienstein & Gavino’s","Dorval, QC","Manager & Business Development" , "September 2010 - December 2010", tr, 'http://www.admtl.com/Passengers/ShopDine/Restaurants.aspx', 0 );
+                </script>
+            </section>
             <section id="education">
                 <div class="row">
                     <div class="page-header">
@@ -70,72 +92,52 @@
                      "Completed December 2010",'',"");
                 </script>
             </section>
-            <section id="experience">
+            </section>
+            <section id="ProjectsCertifications">
                 <div class="row">
                     <div class="page-header">
-                        <h2>Professional Experience </h2>
+                        <h2>Projects | Certifications</h2>
                     </div>
                 </div>
                 <script>
-                    var res = ['Designed and developed a number of modules for the Gocad Mining Suite in C++','Current porting large legacy program with no documentation from VCL to Qt,Some code refactoring in places where implementation not ideal','Created a new developer workflow based on <a href="http://nvie.com/posts/a-successful-git-branching-model/" target="_blank">nvie\'s branching model </a> and trained collegues in git usage</li>','Updated Jenkins build scripts to be more flexible with our new git branching model','Helped redesign Redmine workflows to allow developers to work in a somewhat agile environment while still giving the ability for business to have complete analysis documents readily available','Technology used: C++, Qt, OpenGL, Jenkins, git, Github, Redmine'];
-                    position("Mira Geoscience","Montreal, QC","Software Developer","11/12-Present", res, 'https:www.mirageoscience.com', 0 );
+                    var res = ['Produced a web based <a href="https://github.com/PlanteauStudios/game-off-2013/blob/master/README.md" target="_Check out my game here">video game </a> in one month as participation to the contest (concept, graphics, music)'];
+                    position("GitHub","Montreal, QC","2013 Game Off","November 2013", res, 'https://github.com/github/game-off-2013', 0 );
 
-                    var tr = ['Maintained code base between several teams with members using mixed unconnected VCS including some not using any','Design and development of custom shipping module client','Maintained legacy code controlling various systems including:<ul><li type="square">shipping, receiving, inventory management, work assignment</li></ul>','Technology used: C, C#, Java, MSQL, Oracle, cvs, svn, git, Jira'];
-                    position( "Longbow Advangtage","Montreal, QC","Software Analyst","01/11-10/12", tr, 'http://www.longbowadvantage.com', 0 );
+                    var tr = 'Certified Associate in Project Management (<a href="http://www.pmi.org/certification/certified-associate-in-project-management-capm.aspx"CAPM">CAPM</a>)';
+                    position( "Project Management Institute (PMI)","Montreal, QC",tr,"April 2012",'','http://www.pmi.org/', 0 );
+
+                    var res = ['<a href="http://www.inspection.gc.ca/about-the-cfia/newsroom/food-safety-system/haccp/eng/1346306502207/1346306685922" target="CAPM">HACCP</a> Certification']
+                    var tr = ['Managers\' Hazard Analysis Critical Control Point (  HACCP) certification for food safety in the kitchen'];
+                    position( "Ministère de l’Agriculture, des Pêcheries et de l’Alimentation du Québec (MAPAQ)","Montreal, QC", res , "October 2010", tr, 'http://www.mapaq.gouv.qc.ca/fr/Pages/Accueil.aspx', 0 );
+                    var tr = ['Management of every aspect of a residential painting franchise for a year as a full time student'];
+                    position( "College Pro Painters","Montreal, QC","Franchise owner and manager" , "October 2007 - September 2008", tr, 'http://collegepro.com/', 0 );
                 </script>
-            </section>
-            <section id="technical">
+           
+            <section id="Skills/interests">
                 <div class="row">
                     <div class="page-header">
-                        <h2><a href="https://gist.github.com/Boumbles/e66e2a55713fc818d2aa">Personal Assessment of Technical Skills</a></h2>
+                        <h2>Skills & Interests</h2>
                     </div>
                 </div>
                 <div class="row">
-                   <!--  <h3>Programming Languages</h3> -->
-                    <div class="span8">
-                        <script>             
-                            skillShow('C','40');
-                            skillShow('C++', '60');
-                            skillShow('C#', '40');
-                            skillShow('Java', '30');
-                            skillShow('SQL','30');
-                        </script>
-                    </div>
-                    <div class="span4">
-                        <div class="well">
-                            <h4>Selected Projects</h4>
-                            <hr />
-                            <ul>
-                                <script>
-                                    project('Google AI Challenge','', 'https://github.com/Boumbles/AIChallenge');
-                                    project('COMP376 - Video Games ','','https://github.com/Boumbles/comp-376');
-                                    project('COMP371 - Computer Graphics','','https://github.com/Boumbles/comp-371');
-                                    project('COMP353 - Databases','','https://github.com/Boumbles/comp-353');
-                                </script>
-                            </ul>
-                            <a class="pull-right btn btn-small btn-inverse" href="http://github.com/boumbles">Github Profile <i class="icon-arrow-right icon-white"></i></a><br />
-                        </div>
-                    </div>
-                </div>
-            </section>  
-            <section id="Other Skills">
-                <div class="row">
-                    <div class="page-header">
-                        <h2>Other Skills</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="span8">
-                        <script>
-                            extra('Languages (fluent)','English, French');
-                        </script>
+                    <div class="span8">                        
+                            <li>Fluent in English and French</li>
+                            <li>Photoshop CS6</li>
+                            <li>Github / SourceTree</li>
+                            <li>Teambox / MS Project</li>
+                            <li>Blender</li>
+                            <li>Unity</li>
+                            <li>Google Analytics</li>
+                            <li>Photography</li>
+                            <li>PC gaming</li>
+                            <li>Traveling</li>                       
                     </div>
 
                 </div>
             </section>
             <footer style="padding-top: 20px;">
                 <hr />
-                <p style="text-align: center">&copy; Graham Saulnier 2013</p>
+                <p style="text-align: center">&copy; Elo&iuml;se Vignola 2013</p>
             </footer>      
         </div> 
 
